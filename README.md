@@ -1,2 +1,3 @@
-# impy-new
+# ImPy
+
 Make Python easy to manage
