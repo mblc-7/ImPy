@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Route</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <span id="status">...</span>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const v = params.get("python");
+
+      fetch("route.json")
+        .then(r => r.json())
+        .then(route => {
+          if (v && route.python[v]) {
+            document.getElementById("status").textContent = "Success";
+            document.getElementById("status").style.color = "green";
+            window.location.href = route.python[v];
+          } else {
+            document.getElementById("status").textContent = "Invalid";
+            document.getElementById("status").style.color = "red";
+          }
+        })
+        .catch(() => {
+          document.getElementById("status").textContent = "Error";
+          document.getElementById("status").style.color = "red";
+        })
+    </script>
+  </body>
