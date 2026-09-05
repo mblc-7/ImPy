@@ -463,7 +463,11 @@ if __name__ == "__main__":
                         case x if "--install" in x:
                             print("\033[0;33m\"--install\" is deprecated!\033[0m")
                             switch = " /passive Include_pip=1"
-                        case x if "--thread" in x or "-t" in x:
+                        case x if "--thread" in x:
+                            print("\033[0;33m\"--thread\" is deprecated!\033[0m")
+                            switch = " /passive Include_pip=1 Include_freethreaded=1"
+                        case x if "-t" in x:
+                            print("\033[0;33m\"-t\" is deprecated!\033[0m")
                             switch = " /passive Include_pip=1 Include_freethreaded=1"
                         case x if tswit:
                             switch = " /passive Include_pip=1 Include_freethreaded=1"
