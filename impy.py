@@ -42,7 +42,7 @@ homepath = localprograms / "ImPy"
 homepath.mkdir(exist_ok = True)
 setups = homepath / "pythons"
 setups.mkdir(exist_ok = True)
-impt = "26.2"
+impt = "26.1"
 
 header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 AppleWebKit/605.1.15 (KHTML, like Gecko) Firefox/157.0 Chrome/154.0.8037.0 OPR/137.0.6010.1",
@@ -367,7 +367,7 @@ if __name__ == "__main__":
             print("\t(V)\tRun Python with no window")
 
         case "about":
-            print(f"ImPy {impt} Copyright © MBLC7 [Inno Setup 7.1.0, Visual C++ 14.5, Python 3.13.15]")
+            print(f"ImPy {impt} [Inno Setup 7.1.0, MSVC 19.51.36256, Python 3.13.15]\nCopyright © 2026 MBLC7. All rights reserved.")
 
         case "update":
             old = getjson()
