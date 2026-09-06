@@ -1,10 +1,10 @@
 {
-    "meta": 202609040748,
+    "meta": 202609040749,
     "update": {
         "dev": "",
         "new": "26.1.1",
-        "compate": ["26.1"],
-        "expires": []
+        "compate": [],
+        "expires": ["26.1"]
     },
     "credits": [
         {"name": "César Román (coatl.dev)", "info": "compile 3.12.11, 3.12.12, 3.12.13, and 3.12.14", "locale": "en_US"},
