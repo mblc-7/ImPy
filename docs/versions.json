@@ -1,5 +1,5 @@
 {
-    "meta": 202609060828,
+    "meta": 202609060847,
     "update": {
         "dev": "",
         "new": "26.1.1",
@@ -8,7 +8,10 @@
     },
     "credits": {
         "zh_CN": [
-            {"name": "César Román (coatl.dev)", "info": "编译 3.12.11、3.12.12、3.12.13和3.12.14", "locale": "zh_CN"}
+            {"name": "César Román (coatl.dev)", "info": "编译 3.12.11、3.12.12、3.12.13和3.12.14"}
+        ],
+        "zh_TW": [
+            {"name": "César Román (coatl.dev)", "info": "編譯 3.12.11、3.12.12、3.12.13和3.12.14"}
         ],
         "en_US": [
             {"name": "César Román (coatl.dev)", "info": "compile 3.12.11, 3.12.12, 3.12.13, and 3.12.14"}
