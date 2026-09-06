@@ -7,7 +7,8 @@
         "expires": []
     },
     "credits": [
-        {"name": "C\u00e9sar Rom\u00e1n (coatl.dev)", "info": "compile 3.12.11, 3.12.12, 3.12.13, and 3.12.14"}
+        {"name": "C\u00e9sar Rom\u00e1n (coatl.dev)", "info": "compile 3.12.11, 3.12.12, 3.12.13, and 3.12.14", "locale": "en_US"},
+        {"name": "C\u00e9sar Rom\u00e1n (coatl.dev)", "info": "编译 3.12.11、3.12.12、3.12.13和3.12.14", "locale": "zh_CN"}
     ],
     "latest": [
         "3.13.15",
